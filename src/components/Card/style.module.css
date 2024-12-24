@@ -1,0 +1,22 @@
+.divCardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardStyle{
+    width: 80%;
+    background: linear-gradient(135deg, rgb(71, 153, 153), rgb(51, 102, 102)); /* Gradiente */
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: 0.5s;
+}
+.cardStyle:hover {
+    transform: scale(1.02); /* Aumenta levemente o card ao passar o mouse */
+    transition: transform 0.5s; /* Transição suave */
+}
+
+.cardDisplay{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,7 @@
+.app {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Faz a div ocupar toda a altura da tela */
+    background-color: rgb(150, 253, 219);
+}
